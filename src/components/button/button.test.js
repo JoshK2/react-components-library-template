@@ -20,11 +20,11 @@ describe('Button Component Testing', () => {
   it('Renders Button with Add text', () => {
     act(() => {
       ReactDOM.render(
-        <Button text="text" onClick={() => console.log('click')} />,
+        <Button text="click" onClick={() => console.log('click')} />,
         rootContainer
       )
     })
     const text = rootContainer.querySelector('button')
-    expect(text.textContent).to.equal('text')
+    expect(text.textContent).to.equal('click')
   })
 })
