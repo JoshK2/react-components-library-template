@@ -4,16 +4,16 @@ import { act } from 'react-dom/test-utils'
 import { expect } from 'chai'
 import { Button } from './button'
 
-let rootContainer
+let rootContainer;
 
 beforeEach(() => {
-  rootContainer = document.createElement('div')
-  document.body.appendChild(rootContainer)
+  rootContainer = document.createElement('div');
+  document.body.appendChild(rootContainer);
 })
 
 afterEach(() => {
-  document.body.removeChild(rootContainer)
-  rootContainer = null
+  document.body.removeChild(rootContainer);
+  rootContainer = null;
 })
 
 describe('Button Component Testing', () => {
@@ -22,9 +22,9 @@ describe('Button Component Testing', () => {
       ReactDOM.render(
         <Button text="Add" onClick={() => console.log('click')} />,
         rootContainer
-      )
-    })
-    const text = rootContainer.querySelector('button')
-    expect(text.textContent).to.equal('Add')
+      );
+    });
+    const text = rootContainer.querySelector('button');
+    expect(text.textContent).to.equal('Add');
   })
 })
