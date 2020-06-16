@@ -20,7 +20,7 @@ describe('Button Component Testing', () => {
   it('Renders Button with Add text', () => {
     act(() => {
       ReactDOM.render(
-        <Button text="Add" onClick={() => console.log('click')} />,
+        <Button text="text" onClick={() => console.log('click')} />,
         rootContainer
       );
     });
