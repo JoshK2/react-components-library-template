@@ -7,6 +7,9 @@
 [![Slack](https://badgen.now.sh/badge/chat/on%20Slack/cyan)](https://join.slack.com/t/bit-dev-community/shared_invite/enQtNzM2NzQ3MTQzMTg3LWI2YmFmZjQwMTkxNmFmNTVkYzU2MGI2YjgwMmJlZDdkNWVhOGIzZDFlYjg4MGRmOTM4ODAxNTIxMTMwNWVhMzg)
 [![reddit](https://badgen.now.sh/badge/chat/on%20Reddit/orange)](https://www.reddit.com/r/bit_dev/)
 
+<p align="center">
+  <a href="https://bit.dev/joshk/react-components-library-template"><img src="https://storage.googleapis.com/static.bit.dev/docs/images/quick_start.png"></a>
+</p>
 A template for creating React components library.
 This project is creating for helping and save time for everyone that wants to create his own components library and reuse components across projects.
 When you start creating your own library, it can be tough and painful with a lot of stuff to do just for settings up your project.
@@ -24,7 +27,7 @@ This template comes with several tools that you need for a completes and testabl
 
 ## How to run the demo ?
 
-I made a simple products list for example, to run the project:
+I made a simple products list for example, clone the repo and run the project:
 
 ```
 npm i
@@ -80,6 +83,11 @@ Now you can config your collection to be default in the bit config object in `pa
 ```
 
 Now Bit will export automaticly your components when changes are made when you push code to master, or accepting pull requests.
+
+## Contributing
+
+- Pull requests and ⭐ stars are always welcome.
+- For bugs and feature requests, please create an issue.
 
 ## FAQ
 
