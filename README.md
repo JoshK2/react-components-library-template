@@ -84,6 +84,21 @@ Now you can config your collection to be default in the bit config object in `pa
 
 Now Bit will export automaticly your components when changes are made when you push code to master, or accepting pull requests.
 
+## How to create a new component with a good structure ?
+
+The structure I used for this project is a structure I recommend for working on components library.
+
+```
+src/components/name
+├── name.js
+├── name.module.scss
+├── name.test.js
+└── index.js
+```
+
+I added a shortcut command to create a new component, just run:
+`npm run create --name=NEW_COMPONENT_NAME`
+
 ## Contributing
 
 - Pull requests and ⭐ stars are always welcome.

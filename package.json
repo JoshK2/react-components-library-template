@@ -13,7 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "create": "mkdir src/components/$npm_config_name && touch src/components/$npm_config_name/index.js && touch src/components/$npm_config_name/$npm_config_name.js && touch src/components/$npm_config_name/$npm_config_name.test.js && touch src/components/$npm_config_name/$npm_config_name.module.scss"
   },
   "eslintConfig": {
     "extends": "react-app"
