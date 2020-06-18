@@ -8,8 +8,9 @@
 [![reddit](https://badgen.now.sh/badge/chat/on%20Reddit/orange)](https://www.reddit.com/r/bit_dev/)
 
 <p align="center">
-  <a href="https://bit.dev/joshk/react-components-library-template"><img src="https://storage.googleapis.com/static.bit.dev/docs/images/quick_start.png"></a>
+  <a href="https://bit.dev/joshk/react-components-library-template"><img src="https://i.imagesup.co/images2/39281df9a822157a2fa3b58e520be0a5ebb0ae85.png"></a>
 </p>
+
 A template for creating React components library.
 This project is creating for helping and save time for everyone that wants to create his own components library and reuse components across projects.
 When you start creating your own library, it can be tough and painful with a lot of stuff to do just for settings up your project.
