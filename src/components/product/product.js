@@ -7,7 +7,7 @@ import { Price } from '../price'
 import styles from './product.module.scss'
 
 /**
- * Product component that depend on Button and Title components
+ * Product component that depend on Button, Title and Price components
  */
 const Product = ({ title, description, price, image, onClick, className }) => {
   return (

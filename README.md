@@ -83,7 +83,8 @@ Now you can config your collection to be default in the bit config object in `pa
   }
 ```
 
-Now Bit will export automaticly your components when changes are made when you push code to master, or accepting pull requests.
+Now Bit will export automaticly your components when changes are made when you push code to master, or accepting pull requests.  
+Read more about Bit in GitHub CI [here](https://github.com/teambit/bit-with-github-actions).
 
 ## How to create a new component with a good structure ?
 
