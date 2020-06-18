@@ -57,8 +57,9 @@ After every-things is setup, you can now export the components in this project f
 
 - So fisrt, let's initialize bit, run: `bit init`.
 - Now track all the components under [src/components](src/components) with their test files:
-  `bit add src/components/*/ --tests src/components/{PARENT}/{PARENT}.test.js`.  
-  Before exporting them, we need to import compiler and tester, run this commands:
+  `bit add src/components/*/ --tests src/components/{PARENT}/{PARENT}.test.js`.
+  We can also track the data file: `bit add src/data/products.js --id data/products`.
+- Before exporting them, we need to import compiler and tester, run this commands:
 
 ```
 bit import bit.envs/compilers/react@1.0.8 --compiler
