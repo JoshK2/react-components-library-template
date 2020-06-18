@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import styles from './button.module.scss'
 
+/**
+ * Simple Button component
+ */
 export const Button = ({ text, onClick, className, children, ...rest }) => {
   return (
     <button
@@ -25,7 +28,7 @@ Button.propTypes = {
    * */
   onClick: PropTypes.func.isRequired,
   /**
-   * optional class
+   * optional class to
    * */
   className: PropTypes.string,
 }

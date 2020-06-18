@@ -1,9 +1,9 @@
 # React Components Library Template
 
-A template for creating React Native components library exported to bit.dev.
+A template for creating React components library.
 This project is creating for helping and save time for everyone that wants to create his own components library and reuse components across projects.
 When you start creating your own library, it can be tough and painful with a lot of stuff to do just for settings up your project.
-So, this project can be cloned and that's it! just clone and start coding.
+So, this project can be cloned and that's it! just clone and start create your components library.
 
 ## Features
 
@@ -11,7 +11,7 @@ This template comes with several tools that you need for a completes and testabl
 
 - SCSS support
 - GitHub Actions integrations with Bit
-- Exporting components to bit.dev
+- Exporting components to cloud on bit.dev
 - PropTypes support
 - Classnames support
 - Mocha & Chai tester

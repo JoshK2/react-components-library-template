@@ -1,0 +1,31 @@
+.container {
+  width: 300px;
+  margin: auto;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(205, 205, 205, 0.7);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(205, 205, 205, 0.7);
+  box-shadow: 5px 5px 5px 0px rgba(205, 205, 205, 0.7);
+}
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.description {
+  color: #b1b1b1;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.price {
+  color: #7de3bb;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button {
+  width: 300px;
+}
