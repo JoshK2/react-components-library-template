@@ -27,7 +27,7 @@ jobs:
         run: npm install
       - name: Install bit-bin
         run: sudo npm install bit-bin -g
-      - name: Bit build & Bit test
+      - name: Bit build & test
         run: |
           bit config set analytics_reporting false
           bit config set anonymous_reporting false
@@ -37,4 +37,5 @@ jobs:
           bit -v && bit import
 
           bit status
+          bit build
           bit test
