@@ -109,6 +109,10 @@ I added a shortcut command to create a new component, just run:
 
 ## FAQ
 
+### How to handling assets ?
+
+Please check out the documentation for this. [The direct link to handling assets](https://docs.bit.dev/docs/best-practices#handling-assets).
+
 ### Error during bit export on CI
 
 - Make sure you exported your components first time from your locale workspace.
