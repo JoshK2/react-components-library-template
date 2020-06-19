@@ -116,7 +116,7 @@ Please check out the documentation for this. [The direct link to handling assets
 ### Error during bit export on CI
 
 - Make sure you exported your components first time from your locale workspace.
-- Check that you added `defaultScope` [param](#how-to-export-components-to-bit.dev-and-ci-export).
+- Check that you added `defaultScope` [param](#how-to-export-components-to-bitdev-and-ci-export-).
 
 ### I'm using a different tester
 
