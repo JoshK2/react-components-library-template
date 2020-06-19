@@ -102,11 +102,6 @@ src/components/name
 I added a shortcut command to create a new component, just run:
 `npm run create --name=NEW_COMPONENT_NAME`
 
-## Contributing
-
-- Pull requests and ⭐ stars are always welcome.
-- For bugs and feature requests, please create an issue.
-
 ## FAQ
 
 ### How to handling assets ?
@@ -132,3 +127,8 @@ Let's assume you run your global testing with `npm run test`, you need now to re
 
 - Go to [bit-build-and-test.yml](.github/workflows/bit-build-and-test.yml) that run on PR's, search for `bit test` and replace it with your own test commands.
 - Go to [bit-export.yml](.github/workflows/bit-export.yml) that run when code are pushed to master, search for `bit tag -a` and add above it your own test commands.
+
+## Contributing
+
+- Pull requests and ⭐ stars are always welcome.
+- For bugs and feature requests, please create an issue.
